@@ -20,6 +20,16 @@
   (major1) == 4 && (major2) <  17 || \
   (major1) == 4 && (major2) == 17 && (minor) <= 2)
 #endif /* MIN_VERSION_base */
+/* package easyplot-1.0 */
+#ifndef VERSION_easyplot
+#define VERSION_easyplot "1.0"
+#endif /* VERSION_easyplot */
+#ifndef MIN_VERSION_easyplot
+#define MIN_VERSION_easyplot(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  0 || \
+  (major1) == 1 && (major2) == 0 && (minor) <= 0)
+#endif /* MIN_VERSION_easyplot */
 /* package formatting-7.2.0 */
 #ifndef VERSION_formatting
 #define VERSION_formatting "7.2.0"

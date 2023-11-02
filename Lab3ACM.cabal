@@ -27,6 +27,7 @@ common shared-properties
     base ^>=4.17.2.0,
     formatting ^>=7.2.0,
     text ^>=2.0.0,
+    easyplot ^>= 1.0,
   ghc-options: -Wall -fwarn-incomplete-patterns
   extensions: OverloadedStrings, TemplateHaskell
 
@@ -37,7 +38,7 @@ executable Lab3ACM
 
 
     -- Modules included in this executable, other than Main.
-    other-modules:	Dots EndedDifferences Table
+    other-modules:	Dots EndedDifferences Table Newton Utils Leibnitz
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
